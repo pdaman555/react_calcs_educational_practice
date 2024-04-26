@@ -1,0 +1,33 @@
+.Header {
+	/* display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background-color: #5a5a5a;
+	padding-left: 20px;
+	height: 70px; */
+	display: flex;
+	background-color: #5a5a5a;
+	padding-left: 20px;
+	height: 70px;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.HeaderLink {
+	font-size: 12pt;
+	color: #b0cc35;
+	text-decoration: none;
+}
+.Header h1 {
+	text-align: center;
+	font-size: 14pt;
+	align-content: center;
+	color: #b0cc35;
+	margin-left: 200px;
+}
+
+a:hover {
+	color: #ffffff;
+	cursor: pointer;
+}

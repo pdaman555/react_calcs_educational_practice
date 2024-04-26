@@ -1,0 +1,10 @@
+.Main .content {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	margin: auto;
+	width: 500px;
+	max-width: 100%;
+	flex-wrap: wrap;
+	min-height: calc(100vh - 70px - 70px);
+}

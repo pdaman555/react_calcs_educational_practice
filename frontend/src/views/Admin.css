@@ -1,0 +1,59 @@
+.Admin .content {
+	min-height: calc(100vh - 80px - 80px);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 10px auto 10px auto;
+	width: 500px;
+	max-width: 90%;
+	min-width: 50%;
+	flex-wrap: wrap;
+	align-items: center;
+	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+	border-radius: 20px;
+}
+
+.Admin .content input {
+	height: 20px;
+	border-radius: 5px;
+	font-size: 10pt;
+	color: #070707;
+	background-color: #fdfdfd;
+	line-height: 10px;
+	text-decoration: none;
+	width: 200px;
+	margin-top: 10px;
+}
+
+.Admin .content textarea {
+	min-height: 300px;
+	min-width: 500px;
+	resize: vertical;
+}
+
+.Admin .content button {
+	height: 30px;
+	border-radius: 5px;
+	font-size: 10pt;
+	color: #000000;
+	background-color: #ec5959;
+	text-align: center;
+	line-height: 10px;
+	text-decoration: none;
+	width: 90px;
+	border: none;
+	cursor: pointer;
+	align-items: center;
+	margin-top: 15px;
+	box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.5);
+}
+
+.Admin .content button:hover {
+	color: #000000;
+	background-color: #b0cc35;
+}
+
+.Admin .content p {
+	text-align: center;
+	font-size: 10pt;
+}
